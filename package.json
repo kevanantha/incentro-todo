@@ -1,0 +1,29 @@
+{
+  "name": "incentro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:server": "concurrently -k 'pnpm run dev' 'pnpm run server'",
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "@tanstack/vue-query": "^5.51.1",
+    "@tanstack/vue-query-devtools": "^5.51.1",
+    "@unocss/reset": "^0.61.3",
+    "axios": "^1.7.2",
+    "json-server": "1.0.0-beta.1",
+    "unocss": "^0.61.3",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "concurrently": "^8.2.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}

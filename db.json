@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "id": "5bd0",
+      "title": "Buy grocery",
+      "completed": false
+    },
+    {
+      "id": "67a2",
+      "title": "Deploy to production",
+      "completed": false
+    }
+  ]
+}
